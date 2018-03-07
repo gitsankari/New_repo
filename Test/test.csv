@@ -1,4 +1,4 @@
 -- Owner:sadanesh
 select nvl(sum(sl_adcontact_value + da_adcontact_value),0) as acv 
 from dm.webanalytics_ad_attribution_v3 
-where event_date = "${yesterday}"
+where event_date = "${yesterday}";
